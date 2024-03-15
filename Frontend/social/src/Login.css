@@ -1,0 +1,85 @@
+/* Login.css */
+
+/* Styles for the main container */
+
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #6f4e37;
+}
+
+/* Styles for the header/navbar */
+.header {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.header a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.header a:hover {
+  text-decoration: none;
+}
+
+/* Styles for the login form */
+.login-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-container form input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login-container form button {
+  width: 90%;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #483c32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container form button:hover {
+  background-color: #967969;
+}
+
+.error-message {
+  color: whitesmoke;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login-container p {
+  text-align: center;
+}
+
+.login-container p button {
+  background-color: #483c32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.login-container p button:hover {
+  background-color: #967969;
+}

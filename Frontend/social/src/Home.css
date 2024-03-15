@@ -1,0 +1,54 @@
+/*home css*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #eaddca;
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB_u97U311SMY1pKvgk0mrvigV1HOKxdha34kEuOMDU2LQ6Sp0xk4l-q7tyrmZOaTCY94&usqp=CAU); */
+  /* background-size: cover; Cover the entire viewport */
+  /* background-position: center; Center the background image */
+  /* background-attachment: fixed; Fix the background image */
+}
+
+/* Header and footer styles */
+.header,
+.footer {
+  background-color: #6f4e37;
+  color: white;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+.home-content {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.home-content h1 {
+  font-size: 36px;
+  color: white;
+}
+
+.home-content p {
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+.footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

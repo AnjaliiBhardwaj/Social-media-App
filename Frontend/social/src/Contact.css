@@ -1,0 +1,75 @@
+/* Contact.css */
+
+/* Styles for the header/navbar */
+.header {
+  background-color: #6f4e37;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.header a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.header a:hover {
+  text-decoration: none;
+}
+
+/* Styles for the main container */
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #6f4e37;
+}
+
+/* Styles for the contact form container */
+.contact-form {
+  max-width: 400px;
+  padding: 10px;
+  /* border: 1px solid #ddd; */
+  border-radius: 5px;
+  background-color: #6f4e37;
+}
+
+.contact-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.contact-form textarea {
+  height: 50px;
+}
+
+.contact-form button {
+  width: 90%;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #483c32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #967969;
+}
